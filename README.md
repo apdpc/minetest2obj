@@ -175,3 +175,8 @@ Minetest2Obj utilise les éléments suivants :
 - jail > https://github.com/TheZenKitteh/minetest-jail
 - home > https://github.com/xyzz/minetest-mods/tree/master/sethome
 - **exportblock_v2** > https://github.com/julienrat/exportblock_v2
+
+----
+
+Un tutoriel plus complet est disponible sur le Wikidébrouillard :
+http://www.wikidebrouillard.org/index.php/Impression_3D_avec_MINETEST
