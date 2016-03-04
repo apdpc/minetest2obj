@@ -170,7 +170,7 @@ Les 16 joueurs suivants sont déjà configurés :
 ----
 
 Minetest2Obj utilise les éléments suivants :
-- Minetest 0.4.13 > 
+- Minetest 0.4.13 > https://github.com/minetest/minetest
 - WorldEdit > https://github.com/Uberi/Minetest-WorldEdit/
 - jail > https://github.com/TheZenKitteh/minetest-jail
 - home > https://github.com/xyzz/minetest-mods/tree/master/sethome
