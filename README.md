@@ -11,8 +11,8 @@ Minetest2Obj est une combinaison de mods de jeu pour Minetest (0.4.13) permettan
 
 
 Il existe deux modes de jeux :
-* **Plateau_v1.* ** > un monde pouvant représenter un plateau d'imprimante 3D (20cm x 20cm x 20cm). Dans ce mod de jeu, seuls les blocs mesecons (rouges) sont exportés.
-* **Monde_v0.* ** > un monde vierge à construire. Dans ce mod de jeu tous les cubes (hormis les mesecons rouges) peuvent être exportés.
+* **Plateau ** > un monde pouvant représenter un plateau d'imprimante 3D (20cm x 20cm x 20cm). Dans ce mod de jeu, seuls les blocs mesecons (rouges) sont exportés.
+* **Monde ** > un monde vierge à construire. Dans ce mod de jeu tous les cubes (hormis les mesecons) peuvent être exportés.
 
 Il est vivement conseillé de dupliquer l'un des répertoires contenus dans worlds (`Plateau_v1.*` ou `Monde_v0.*`) à chaque nouvelle création ou chaque nouveau groupe.
 
@@ -29,10 +29,10 @@ Cette combinaison de mods est désormais compatible avec tous les systèmes d'ex
 
 Télécharger et décompresser `Minetest2Obj_v0.5`, puis déplacer :
 * le répertoire **imprim3d** dans le répertoire games (et, pour linux, donner les droits si nécessaire) ;
-   * Windows: `minetest-install-path/mods`
-   * OS X: `minetest.app/Contents/Resources/bin/mods`
-   * GNU/Linux: `~/.minetest/mods`
-* les répertoires `Plateau_v1.*` et `Monde_v0.*` dans le répertoire worlds (ce dossier sera à dupliquer pour chaque nouvel objet que vous voudrez modéliser) ;
+ 	  * Windows: `minetest-install-path/mods`
+ 	  * OS X: `minetest.app/Contents/Resources/bin/mods`
+ 	  * GNU/Linux: `~/.minetest/mods`
+* les répertoires `Plateau_v1.*` et `Monde_v0.*` dans le répertoire worlds (répertoires à dupliquer pour chaque nouvel objet que vous voudrez modéliser) ;
 * le fichier `minetest.conf` dans le répertoire minetest (ou .minetest).
 
 
@@ -48,7 +48,7 @@ Administration
 Un compte administrateur a été créé avec tous les privilèges 
 (login : *admin* / mdp : *admin*).
 
-Plus besoin de se mettre en mode créatif pour le monde Plateau : les joueurs ont chacun 1000 cubes rouges et des pioches pour éventuellement les casser (+ des éléments pour refaire le plateau : cubes bleus, verts, torches, ...).
+Plus besoin de se mettre en mode créatif : les joueurs déjà créés ont chacun un inventaire de départ.
 
 En cas de besoin, l'admin peut donner des blocs supplémentaires avec la commande `/give`. Par exemple, pour donner 99 mesecons rouges à hihi :
 
@@ -81,8 +81,7 @@ Avec ce mod, les joueurs au comportement peu sociable (destructions des construc
 
 Ils peuvent être libérés de la même manière avec `/release`.
 
- Dans *Plateau*, la prison se trouve dans le ciel au dessus du plateau.
- Dans *Monde*, la prison est à construire par l'administrateur.
+Les prisons se trouvent aux coordonnées : -1 50 -1.
 
 
 
@@ -124,22 +123,24 @@ Seul le joueur qui a lancé la partie (et qui a installé la combinaison de mods
 
 1. Une fois la construction achevée, le joueur *serveur* doit se rendre à sa position de départ (`/home` ou `/teleport 1 1 1`)
 2. Tapez ensuite la commande :
-
     /blockexport
+
 3. Le temps d'attente varie selon le nombre de cubes rouges présents sur le plateau.
 4. Un fichier .obj sera créé dans le dossier du monde (`minetest/worlds/VOTREMONDE`).
+
+NB : la variante "pyramide" permet de lancer un challenge de déconstruction en début d'animation.
 
 
 * **Monde : exporter les blocs que vous souhaitez**
 
  > Rappel : dans ce mod de jeu, le bloc que vous aurez en main au moment de l'export sera exporté vers le fichier .obj. Attention les blocs mesecons rouges ne peuvent pas être exportés.
 
-1. Une fois votre construction finie, placez vous le plus au centre de votre objet.
+1. Une fois votre construction finie, placez vous aux coordonnées les plus inférieures de votre objet et à une altitude supérieure (tapez F5 pour afficher vos coordonnées).
 2. Gardez en main le bloc que vous souhaitez exporter (il détermine le type de blocs à exporter)
-3. Indiquez la zone autour de vous que vous souhaitez exporter avec la commande [ /exportblock  longueur largeur hauteur  ] en blocs !  Par exemple, pour exporter la zone du 20 blocs autour du joueur :
-
+3. Indiquez la zone que vous souhaitez exporter avec la commande [ /exportblock  longueur largeur hauteur  ] en blocs !  Par exemple, pour exporter la zone du 20 blocs autour du joueur :
     /exportblock 20 20 20
-4. Contemplez l'avancement de l'export dans la ligne de tchat !
+
+4. Contemplez l'avancement de l'export dans les informations (en haut à gauche).
 5. Récupérez le fichier .obj dans le repertoire du monde (minetest/worlds/VOTREMONDE) !
 
 
