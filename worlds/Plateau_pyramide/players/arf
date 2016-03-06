@@ -1,0 +1,64 @@
+breath = 10
+hp = 20
+name = arf
+pitch = 5
+position = (10,10,10)
+version = 1
+yaw = 315
+PlayerArgsEnd
+List main 32
+Width 0
+Empty
+Item mesecons_lightstone:lightstone_red_off 99
+Item mesecons_lightstone:lightstone_red_off 99
+Item mesecons_lightstone:lightstone_red_off 99
+Item mesecons_lightstone:lightstone_red_off 99
+Item mesecons_lightstone:lightstone_red_off 99
+Item default:pick_mese
+Item default:torch 99
+Item default:clay 99
+Item mesecons_lightstone:lightstone_red_off 99
+Item mesecons_lightstone:lightstone_red_off 99
+Item mesecons_lightstone:lightstone_red_off 99
+Item mesecons_lightstone:lightstone_red_off 99
+Item mesecons_lightstone:lightstone_red_off 99
+Item default:pick_mese
+Item default:torch 99
+Item default:clay 99
+Item default:pick_mese
+Item default:pick_mese
+Item default:pick_mese
+Item default:pick_mese
+Item default:pick_mese
+Item default:pick_mese
+Item default:torch 99
+Item default:clay_lump
+Item mesecons_lightstone:lightstone_blue_off 99
+Item mesecons_lightstone:lightstone_blue_off 99
+Item mesecons_lightstone:lightstone_green_off 99
+Item mesecons_lightstone:lightstone_green_off 99
+Item mesecons_lightstone:lightstone_yellow_off 99
+Item mesecons_lightstone:lightstone_yellow_off 99
+Item default:torch 99
+EndInventoryList
+List craft 9
+Width 3
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+EndInventoryList
+List craftpreview 1
+Width 0
+Empty
+EndInventoryList
+List craftresult 1
+Width 0
+Empty
+EndInventoryList
+EndInventory
