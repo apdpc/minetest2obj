@@ -122,7 +122,7 @@ Seul le joueur qui a lancé la partie (et qui a installé la combinaison de mods
 > Rappel : dans ce mod de jeu, seuls les blocs mesecons rouges sont exportés vers le fichier .obj. Ce mod d'export demande des temps d'export plus longs, mais exporte tous les blocs mesecons rouges présents sur le plateau de jeu.
 
 1. Une fois la construction achevée, le joueur *serveur* doit se rendre à sa position de départ (`/home` ou `/teleport 1 1 1`)
-2. Tapez ensuite la commande :
+2. Tapez ensuite la commande : 
     /blockexport
 
 3. Le temps d'attente varie selon le nombre de cubes rouges présents sur le plateau.
@@ -133,11 +133,11 @@ NB : la variante "pyramide" permet de lancer un challenge de déconstruction en 
 
 * **Monde : exporter les blocs que vous souhaitez**
 
- > Rappel : dans ce mod de jeu, le bloc que vous aurez en main au moment de l'export sera exporté vers le fichier .obj. Attention les blocs mesecons rouges ne peuvent pas être exportés.
+> Rappel : dans ce mod de jeu, le bloc que vous aurez en main au moment de l'export sera exporté vers le fichier .obj. Attention les blocs mesecons rouges ne peuvent pas être exportés.
 
 1. Une fois votre construction finie, placez vous aux coordonnées les plus inférieures de votre objet et à une altitude supérieure (tapez F5 pour afficher vos coordonnées).
 2. Gardez en main le bloc que vous souhaitez exporter (il détermine le type de blocs à exporter)
-3. Indiquez la zone que vous souhaitez exporter avec la commande [ /exportblock  longueur largeur hauteur  ] en blocs !  Par exemple, pour exporter la zone du 20 blocs autour du joueur :
+3. Indiquez la zone que vous souhaitez exporter avec la commande [ /exportblock  longueur largeur hauteur  ] en blocs !  Par exemple, pour exporter la zone du 20 blocs autour du joueur : 
     /exportblock 20 20 20
 
 4. Contemplez l'avancement de l'export dans les informations (en haut à gauche).
