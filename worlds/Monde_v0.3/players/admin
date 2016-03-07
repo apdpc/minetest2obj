@@ -1,0 +1,64 @@
+breath = 65535
+hp = 20
+name = admin
+pitch = 42.5
+position = (0,580,0)
+version = 1
+yaw = 133.17
+PlayerArgsEnd
+List main 32
+Width 0
+Empty
+Item default:pick_mese
+Item default:wood 99
+Item default:torch 99
+Item default:sign_wall 99
+Empty
+Empty
+Empty
+Empty
+Item default:pick_mese
+Item default:wood 99
+Item default:torch 99
+Item default:chest 99
+Empty
+Empty
+Item jail:pick_warden
+Empty
+Item default:pick_mese
+Item default:wood 99
+Empty
+Empty
+Empty
+Empty
+Item jail:jailwall 99
+Empty
+Item default:pick_mese
+Item default:wood 99
+Empty
+Item default:chest_locked 8
+Empty
+Empty
+Item jail:glass 99
+EndInventoryList
+List craft 9
+Width 3
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+Empty
+EndInventoryList
+List craftpreview 1
+Width 0
+Empty
+EndInventoryList
+List craftresult 1
+Width 0
+Empty
+EndInventoryList
+EndInventory
