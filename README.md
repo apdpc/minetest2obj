@@ -29,12 +29,12 @@ Cette combinaison de mods est désormais compatible avec tous les systèmes d'ex
 
 Télécharger et décompresser `Minetest2Obj_v0.5`, puis déplacer :
 * le répertoire **imprim3d** dans le répertoire games (et, pour linux, donner les droits si nécessaire) ;
- 	  * Windows: `minetest-install-path/mods`
- 	  * OS X: `minetest.app/Contents/Resources/bin/mods`
- 	  * GNU/Linux: `~/.minetest/mods`
-* les répertoires `Plateau_v1.*` et `Monde_v0.*` dans le répertoire worlds (répertoires à dupliquer pour chaque nouvel objet que vous voudrez modéliser) ;
+ 	  * Windows: `minetest-***/games/`
+ 	  * OS X: `minetest.app/Contents/Resources/bin/games/`
+ 	  * GNU/Linux: `~/.minetest/games`
+* les répertoires `Plateau_**` et `Monde_**` dans le répertoire worlds (répertoires à dupliquer pour chaque nouvel objet que vous voudrez modéliser) ;
 * le fichier `minetest.conf` dans le répertoire minetest (ou .minetest).
- nous aurions 2 places disponibles.
+
 
 ----
 
